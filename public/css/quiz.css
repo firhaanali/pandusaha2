@@ -1,0 +1,104 @@
+
+.navbar{
+    background-color: rgba(232, 226, 242, 1);
+  }
+  
+  .navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+  }
+  
+  .navbar-toggler:focus,
+  .btn-close:focus {
+  box-shadow: none;
+  outline: none;
+  }
+  
+  .nav-link {
+  color: #666777;
+  font-weight: 500;
+  position: relative;
+  margin-right: 30px;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+  color:rgb(68, 0, 255)
+  }
+  
+  .btn-group{
+    margin-right: 60px;
+  }
+  
+  
+  
+  
+  @media (min-width: 991px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: rgb(68, 0, 255);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover::before,
+  .nav-link.active::before {
+    width: 60%;
+    visibility: visible;
+  }
+  }
+  .icon-button{
+  margin-top: 9px;
+    }  
+    
+    #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+  }
+  
+  #footer .credits a {
+    color: #34b7a7;
+  }
+  
+
+
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .btn-answered { 
+    background-color: #007bff;
+    color: white;
+  }
+
+.question-card{
+  margin-top: 100px;
+  background-color:rgba(232, 226, 242, 1) ;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  height: 300px;
+  font-size: medium;
+}
+
+  .pagination-card{
+    margin-top: 100px;
+    height: 290px;
+    border-radius: 20px;
+  }
+
+  .number-buttons .btn {
+    margin: 15px;
+    border-color: rgb(255, 255, 255);
+  }
